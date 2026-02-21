@@ -14,11 +14,9 @@ except ImportError:
     print("Установите: pip install bcrypt\n")
 
 def print_banner():
-    print("=" * 70)
     print("ИНСТРУМЕНТ АНАЛИЗА ПАРОЛЕЙ И ХЭШЕЙ (EDUCATIONAL DEMO)")
     print("Этот скрипт предназначен ТОЛЬКО для обучения и тестирования своих паролей!")
     print("НЕ ИСПОЛЬЗУЙТЕ для взлома чужих аккаунтов — это незаконно.")
-    print("=" * 70)
     print()
 
 def evaluate_password_strength(password):
